@@ -9,7 +9,7 @@ import { Singers, SingerDetail, SingerCreate, SingerEdit } from './Component/Sin
 
 const settings = { total: 'totalCount' };
 
-const dataProvider = jsonServerProvider('http://localhost:3002/admin/');
+const dataProvider = jsonServerProvider('https://api.kmp3.ga/admin/');
 
 function App() {
   return (
